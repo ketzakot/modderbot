@@ -534,7 +534,7 @@ var date = new Date();
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-      await dha.setStatus(`Aktif Selama: ${uptime} | ${botName}`).catch((_) => _);
+      await dha.setStatus(`Bot Activo: ${uptime} | ${botName}`).catch((_) => _);
       settingstatus = new Date() * 1;            
           }                      
        
